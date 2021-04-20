@@ -1,0 +1,67 @@
+/* -----User Accounts page styling start----- */
+.accsec{
+    background: radial-gradient(circle, #f6af2e, #c96a32);
+    padding: 5%;
+    color: #fff;
+    text-align: center;
+}
+
+.accsec2{
+    margin: 3% 0;
+}
+.accsec5{
+    padding: 1% 1% 10% 1%;
+    background-color: rgba(41, 40, 40, 0.3);
+}
+
+.acc2btn{
+    border: 2px solid #292828;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: #292828;
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+    margin: 3%;
+    font-weight: bold;
+    box-shadow: 0px 0px 6px 3px rgb(255 255 255 / 50%);
+}
+.acc2btn:hover {
+    color: #E5972F; 
+    border: 2px solid #E5972F;
+}
+
+/* Styling of text used */
+.acctxt1{
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.acctxt2{
+    font-family: 'Raleway', sans-serif;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    font-weight: 300;
+    color: #fff;
+    margin-bottom: 1% !important;
+    letter-spacing: 0.5px;
+}
+.acctxt2 span{
+    font-family: 'Raleway', sans-serif;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+}
+/* --------User Accounts page styling end-------- */
+
+/* -----User Achievement page styling start----- */
+.achtxt1{
+    text-align: center;
+    margin-top: 3% !important;
+    font-weight: bold;
+    text-transform: uppercase;
+}

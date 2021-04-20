@@ -1,0 +1,49 @@
+/* Styling of the text used */
+.lstxt1{
+    text-align: center;
+    margin-top: 5% !important;
+    /* color: #000; */
+    font-weight: bold;
+}
+
+/* ----- LP Staking section start ----- */
+.ssec{
+    background: radial-gradient(circle, #f6af2e, #c96a32);
+    color: #fff;
+    padding: 5%;
+    overflow: hidden;
+}
+
+/* Section 2 */
+.ssec2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4%;
+}
+.ssec2btn{
+    border: 2px solid #292828;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: #292828;
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+    margin: 3%;
+    font-weight: bold;
+    box-shadow: 0px 0px 6px 3px rgb(255 255 255 / 50%);
+}
+.ssec2btn:hover, .ssec2btn:focus {
+    color: #E5972F; 
+    border: 2px solid #E5972F;
+}
+
+
+/* Media Query for responsive app */
+@media screen and (max-width: 768px) {
+    .ssec2{
+        display: flex;
+        display: block;
+        text-align: center;
+    }
+}

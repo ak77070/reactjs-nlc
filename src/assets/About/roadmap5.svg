@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="516" height="376" viewBox="0 0 516 376">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.115" y1="0.5" x2="0.897" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#cf7331"/>
+      <stop offset="0.51" stop-color="#eea32e"/>
+      <stop offset="1" stop-color="#cf7331"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_22" data-name="Group 22" transform="translate(-2587 -729)">
+    <rect id="Rectangle_8" data-name="Rectangle 8" width="516" height="46" rx="23" transform="translate(2587 815)" fill="url(#linear-gradient)"/>
+    <rect id="Rectangle_9" data-name="Rectangle 9" width="516" height="46" rx="23" transform="translate(2587 876)" fill="url(#linear-gradient)"/>
+    <rect id="Rectangle_10" data-name="Rectangle 10" width="516" height="46" rx="23" transform="translate(2587 937)" fill="url(#linear-gradient)"/>
+    <rect id="Rectangle_11" data-name="Rectangle 11" width="516" height="46" rx="23" transform="translate(2587 998)" fill="url(#linear-gradient)"/>
+    <rect id="Rectangle_17" data-name="Rectangle 17" width="516" height="46" rx="23" transform="translate(2587 1059)" fill="url(#linear-gradient)"/>
+    <text id="Additional_Game_Dev_Releases" data-name="Additional Game Dev &amp; Releases" transform="translate(2681 845)" fill="#fff" font-size="20" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">Additional Game Dev &amp; Releases</tspan></text>
+    <text id="Trading_Card_Game_Release" data-name="Trading Card Game Release" transform="translate(2706 906)" fill="#fff" font-size="20" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">Trading Card Game Release</tspan></text>
+    <text id="Multiplayer_Game" data-name="Multiplayer Game" transform="translate(2756 967)" fill="#fff" font-size="20" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">Multiplayer Game</tspan></text>
+    <text id="Desktop_App_Release" data-name="Desktop App Release" transform="translate(2737 1028)" fill="#fff" font-size="20" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">Desktop App Release</tspan></text>
+    <text id="Additional_Tournaments" data-name="Additional Tournaments" transform="translate(2724 1089)" fill="#fff" font-size="20" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">Additional Tournaments</tspan></text>
+    <g id="Group_14" data-name="Group 14" transform="translate(1627 131)">
+      <rect id="Rectangle_7" data-name="Rectangle 7" width="516" height="69" rx="34.5" transform="translate(960 598)" fill="#353434"/>
+      <g id="Group_13" data-name="Group 13" transform="translate(803 485.5)">
+        <g id="Group_12" data-name="Group 12" transform="translate(62 -0.5)">
+          <text id="Q4" transform="translate(290 155)" fill="#fff" font-size="20" font-family="Montserrat-Regular, Montserrat"><tspan x="-14.12" y="0">Q4</tspan></text>
+          <text id="_2021" data-name="2021" transform="translate(199 155)" fill="#fff" font-size="20" font-family="Montserrat-Regular, Montserrat"><tspan x="-22.47" y="0">2021</tspan></text>
+          <text id="Additional_Games" data-name="Additional Games" transform="translate(444 154)" fill="#fff" font-size="19" font-family="Montserrat-Bold, Montserrat" font-weight="700"><tspan x="-85.414" y="0">Additional Games</tspan></text>
+          <line id="Line_3" data-name="Line 3" y2="29" transform="translate(248.5 133.5)" fill="none" stroke="#fff" stroke-width="1" opacity="0.71"/>
+          <line id="Line_4" data-name="Line 4" y2="29" transform="translate(330.5 133.5)" fill="none" stroke="#fff" stroke-width="1" opacity="0.71"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

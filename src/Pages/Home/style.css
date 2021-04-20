@@ -1,0 +1,288 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* -----Text stylings start----- */
+.txt1{
+    font-size: 45px;
+    padding: 0 0 2% 0;
+    letter-spacing: 1px !important;
+    font-weight: bolder;
+    margin: auto;
+    text-shadow: #000 1px 0 10px;
+}
+.txt2{
+    font-size: 18px;
+}
+.txt4{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.txt5{
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+    font-weight: 400;
+}
+.txt6{
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.2;
+}
+.txt7{
+    font-family: 'Raleway', sans-serif;
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+    font-weight: 300;
+    /* line-height: 1.2; */
+}
+.txt8{
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+    font-weight: 300;
+    /* line-height: 1.2; */
+}
+.txt8 span{
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+/* --------Text stylings end-------- */
+
+/* -----Button stylings start----- */
+.homebtn{
+    border: 2px solid #292828;
+    padding: 10px;
+    border-radius: 25px;
+    z-index: 99999999;
+    background-color: #292828;
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+    margin-right: 3%;
+    font-weight: bold;
+    box-shadow: 0px 0px 6px 3px rgb(255 255 255 / 50%);
+}
+.homebtn:hover, .homebtn:focus {
+    color: #E5972F; 
+    border: 2px solid #E5972F;
+}
+/* --------Button stylings end-------- */
+
+/* -----Section 1/hero start----- */
+.herosec{
+    margin: -2% 0 !important;
+}
+.sec1{
+    background: url(../../assets/Home/sec1bg.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background: radial-gradient(circle, #f6af2e, #c96a32); */
+    width: 100%;
+    height: auto;
+    color: #fff;
+    padding: 10%;
+    overflow: hidden;
+}
+.sec1-1{
+    padding: 0 5% !important;
+    align-self: center;
+}
+.sec1-2{
+    text-align: center;
+    align-self: center;
+}
+/* --------Section 1/hero end-------- */
+
+/* -----Section 2 start----- */
+.sec2{
+    background: radial-gradient(circle, #f6af2e, #c96a32);
+    color: #fff;
+    padding: auto 0;
+    margin-top: -0.1%;
+    overflow: hidden;
+}
+.sec2-11{
+    padding: 0 !important;
+    margin: 0;
+}
+.sec2-12{
+    padding-top: 3%;
+    text-align: center;
+}
+.sec2-13{
+    padding: 0 5%;
+}
+
+.card-columns{
+    padding: 2% 5% 5% 5%;
+}
+.card{
+    position: inherit !important;
+    background: #292828 !important;
+    border: 2px solid rgb(41, 40, 40) !important;
+    padding: 20px;
+    -webkit-box-shadow: 0px 0px 8px 5px rgba(255,255,255,0.5); 
+    box-shadow: 0px 0px 8px 6px rgba(255,255,255,0.5);
+    visibility: visible;
+    animation-delay: 0.1s;
+    animation-name: fadeIn;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    text-align: center;
+    border-radius: 0 !important;
+    margin-top: 3%;
+}
+.card:hover{
+    background: #292828 !important;
+    border: 2px solid rgb(229, 151, 47) !important;
+    color: #e5972f !important;
+    box-shadow: 0px 0px 8px 6px rgba(255,255,255,0.3);
+    -webkit-box-shadow: 0px 0px 8px 6px rgba(255,255,255,0.3); 
+}
+.cardtxt{
+    padding: 0;
+}
+/* --------Section 2 end-------- */
+
+/* Section 3 */
+.sec3{
+    background: url(../../assets/Home/sec3bg.jpg);
+    background-color: #292828;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 3% 5%;
+    overflow: hidden;
+}
+.sec3-1{
+    padding-left: 5% !important;
+}
+
+/* Section 4 */
+.sec4{
+    overflow: hidden;
+}
+.sec4-1{
+    background: url(../../assets/Home/sec41bg.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-self: center;
+    padding: 5%;
+}
+.sec4-2{
+    padding: 5% 5% 5% 0;
+}
+
+/* Section 5 */
+.sec5{
+    background: url(../../assets/Home/sec5bg.svg);
+    background-color: #292828;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 5% 5% !important;
+    overflow: hidden;
+}
+.sec5-11{
+    text-align: center;
+}
+
+/* Section 6 */
+.sec6-1{
+    background: url(../../assets/Home/sec6bg.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 5%;
+    margin: auto 0 !important;
+    overflow: hidden;
+}
+.sec6-11{
+    display: flex;
+    align-self: center !important;
+    text-align: center;
+    justify-content: center;
+}
+.objimg{
+    overflow: hidden;
+    background-color: transparent;
+    align-self: center;
+}
+.sec6-13{
+    align-self: center;
+}
+.sec6-12{
+    margin: auto;
+    padding-left: 5% !important;
+}
+.sec6-2{
+    padding: 5%;
+    margin: 0 !important;
+}
+
+/* Home section 7 */
+.sec7{
+    background: url(../../assets/Home/sec7bg.svg);
+    background-color: #292828;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 5%;
+    color: #fff;
+    overflow: hidden;
+}
+.sec7-1{
+    text-align: center;
+}
+.sec7-2{
+    padding: 3% 5%;
+}
+
+/* Home section 8 */
+.sec8{
+    background: radial-gradient(circle, #f6af2e, #c96a32);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 5%;
+    color: #fff;
+    overflow: hidden;
+}
+.sec8-1{
+    text-align: center;
+}
+.sec8-2{
+    padding: 3% 5% 5% 5%;
+}
+
+/* Media Query for responsive app */
+@media screen and (max-width: 768px) {
+    .sec1-1{
+        margin-bottom: 5% !important;
+    }
+    .txt2{
+        padding-bottom: 2%;
+    }
+    .sec4-1{
+        margin-top: 2%;
+    }
+    .sec4-2{
+        padding: 5% 5%;
+    }
+    .txt9{
+        padding-top: 24px;
+    }
+    .sec6-11{
+        margin-top: 24px;
+        justify-content: center;
+    }
+}

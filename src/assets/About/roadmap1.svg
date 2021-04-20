@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="516" height="376" viewBox="0 0 516 376">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.115" y1="0.5" x2="0.897" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#cf7331"/>
+      <stop offset="0.51" stop-color="#eea32e"/>
+      <stop offset="1" stop-color="#cf7331"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_20" data-name="Group 20" transform="translate(-140 -598)">
+    <rect id="Rectangle_8" data-name="Rectangle 8" width="516" height="46" rx="23" transform="translate(140 684)" fill="url(#linear-gradient)"/>
+    <rect id="Rectangle_9" data-name="Rectangle 9" width="516" height="46" rx="23" transform="translate(140 745)" fill="url(#linear-gradient)"/>
+    <rect id="Rectangle_10" data-name="Rectangle 10" width="516" height="46" rx="23" transform="translate(140 806)" fill="url(#linear-gradient)"/>
+    <rect id="Rectangle_11" data-name="Rectangle 11" width="516" height="46" rx="23" transform="translate(140 867)" fill="url(#linear-gradient)"/>
+    <rect id="Rectangle_17" data-name="Rectangle 17" width="516" height="46" rx="23" transform="translate(140 928)" fill="url(#linear-gradient)"/>
+    <rect id="Rectangle_7" data-name="Rectangle 7" width="516" height="69" rx="34.5" transform="translate(140 598)" fill="#353434"/>
+    <text id="Platform_Ideation" data-name="Platform Ideation" transform="translate(310 714)" fill="#fff" font-size="20" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">Platform Ideation</tspan></text>
+    <text id="Pre-Sale" transform="translate(355 775)" fill="#fff" font-size="20" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">Pre-Sale</tspan></text>
+    <text id="Onboarding_Devs_Partners_Advisors" data-name="Onboarding Devs, Partners, Advisors" transform="translate(214 836)" fill="#fff" font-size="20" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">Onboarding Devs, Partners, Advisors</tspan></text>
+    <text id="Games_and_Contracts_Creation" data-name="Games and Contracts Creation" transform="translate(244 897)" fill="#fff" font-size="20" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">Games and Contracts Creation</tspan></text>
+    <text id="Apply_for_IFO_on_Pancakeswap" data-name="Apply for IFO on Pancakeswap" transform="translate(244 958)" fill="#fff" font-size="20" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">Apply for IFO on Pancakeswap</tspan></text>
+    <g id="Group_11" data-name="Group 11" transform="translate(15 485.5)">
+      <g id="Group_12" data-name="Group 12" transform="translate(62 -0.5)">
+        <text id="Q4" transform="translate(292 154.5)" fill="#fff" font-size="20" font-family="Montserrat-Regular, Montserrat"><tspan x="-14.12" y="0">Q4</tspan></text>
+        <text id="_2020" data-name="2020" transform="translate(199 154.5)" fill="#fff" font-size="20" font-family="Montserrat-Regular, Montserrat"><tspan x="-25.54" y="0">2020</tspan></text>
+        <text id="Partnership" transform="translate(414 153.5)" fill="#fff" font-size="19" font-family="Montserrat-Bold, Montserrat" font-weight="700"><tspan x="-55.993" y="0">Partnership</tspan></text>
+        <line id="Line_3" data-name="Line 3" y2="29" transform="translate(251.5 133)" fill="none" stroke="#fff" stroke-width="1" opacity="0.71"/>
+        <line id="Line_4" data-name="Line 4" y2="29" transform="translate(331.5 133)" fill="none" stroke="#fff" stroke-width="1" opacity="0.71"/>
+      </g>
+    </g>
+  </g>
+</svg>

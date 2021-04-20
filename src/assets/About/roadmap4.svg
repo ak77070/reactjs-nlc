@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="516" height="437" viewBox="0 0 516 437">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.115" y1="0.5" x2="0.897" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#cf7331"/>
+      <stop offset="0.51" stop-color="#eea32e"/>
+      <stop offset="1" stop-color="#cf7331"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_17" data-name="Group 17" transform="translate(-1266 -81)">
+    <rect id="Rectangle_8" data-name="Rectangle 8" width="516" height="46" rx="23" transform="translate(1266 167)" fill="url(#linear-gradient)"/>
+    <rect id="Rectangle_9" data-name="Rectangle 9" width="516" height="46" rx="23" transform="translate(1266 228)" fill="url(#linear-gradient)"/>
+    <rect id="Rectangle_10" data-name="Rectangle 10" width="516" height="46" rx="23" transform="translate(1266 289)" fill="url(#linear-gradient)"/>
+    <rect id="Rectangle_11" data-name="Rectangle 11" width="516" height="46" rx="23" transform="translate(1266 350)" fill="url(#linear-gradient)"/>
+    <rect id="Rectangle_17" data-name="Rectangle 17" width="516" height="46" rx="23" transform="translate(1266 411)" fill="url(#linear-gradient)"/>
+    <rect id="Rectangle_18" data-name="Rectangle 18" width="516" height="46" rx="23" transform="translate(1266 472)" fill="url(#linear-gradient)"/>
+    <rect id="Rectangle_7" data-name="Rectangle 7" width="516" height="69" rx="34.5" transform="translate(1266 81)" fill="#353434"/>
+    <text id="Mobile_App_Release" data-name="Mobile App Release" transform="translate(1424 197)" fill="#fff" font-size="20" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">Mobile App Release</tspan></text>
+    <text id="Trading_Card_Game_Testing" data-name="Trading Card Game Testing" transform="translate(1387 258)" fill="#fff" font-size="20" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">Trading Card Game Testing</tspan></text>
+    <text id="Fiat_Onramp_Release" data-name="Fiat Onramp Release" transform="translate(1419 319)" fill="#fff" font-size="20" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">Fiat Onramp Release</tspan></text>
+    <text id="Tournament_Hosting" data-name="Tournament Hosting" transform="translate(1421 380)" fill="#fff" font-size="20" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">Tournament Hosting</tspan></text>
+    <text id="Additional_Game_Dev_Release" data-name="Additional Game Dev &amp; Release" transform="translate(1365 441)" fill="#fff" font-size="20" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">Additional Game Dev &amp; Release</tspan></text>
+    <text id="Multiplayer_Development" data-name="Multiplayer Development" transform="translate(1396 502)" fill="#fff" font-size="20" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">Multiplayer Development</tspan></text>
+    <g id="Group_8" data-name="Group 8" transform="translate(38)">
+      <text id="Q3" transform="translate(1416 123)" fill="#fff" font-size="20" font-family="Montserrat-Regular, Montserrat"><tspan x="-14.18" y="0">Q3</tspan></text>
+      <text id="_2021" data-name="2021" transform="translate(1322 123)" fill="#fff" font-size="20" font-family="Montserrat-Regular, Montserrat"><tspan x="-22.47" y="0">2021</tspan></text>
+      <text id="Additional_Services" data-name="Additional Services" transform="translate(1580 122)" fill="#fff" font-size="19" font-family="Montserrat-Bold, Montserrat" font-weight="700"><tspan x="-93.015" y="0">Additional Services</tspan></text>
+      <line id="Line_7" data-name="Line 7" y2="29" transform="translate(1372.5 101.5)" fill="none" stroke="#fff" stroke-width="1" opacity="0.71"/>
+      <line id="Line_8" data-name="Line 8" y2="29" transform="translate(1458.5 101.5)" fill="none" stroke="#fff" stroke-width="1" opacity="0.71"/>
+    </g>
+  </g>
+</svg>

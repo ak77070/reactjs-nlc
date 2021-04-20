@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="516" height="376" viewBox="0 0 516 376">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.115" y1="0.5" x2="0.897" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#cf7331"/>
+      <stop offset="0.51" stop-color="#eea32e"/>
+      <stop offset="1" stop-color="#cf7331"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_18" data-name="Group 18" transform="translate(-702 -81)">
+    <rect id="Rectangle_8" data-name="Rectangle 8" width="516" height="46" rx="23" transform="translate(702 167)" fill="url(#linear-gradient)"/>
+    <rect id="Rectangle_9" data-name="Rectangle 9" width="516" height="46" rx="23" transform="translate(702 228)" fill="url(#linear-gradient)"/>
+    <rect id="Rectangle_10" data-name="Rectangle 10" width="516" height="46" rx="23" transform="translate(702 289)" fill="url(#linear-gradient)"/>
+    <rect id="Rectangle_11" data-name="Rectangle 11" width="516" height="46" rx="23" transform="translate(702 350)" fill="url(#linear-gradient)"/>
+    <rect id="Rectangle_17" data-name="Rectangle 17" width="516" height="46" rx="23" transform="translate(702 411)" fill="url(#linear-gradient)"/>
+    <rect id="Rectangle_7" data-name="Rectangle 7" width="516" height="69" rx="34.5" transform="translate(702 81)" fill="#353434"/>
+    <text id="IDO_Listings" data-name="IDO Listings" transform="translate(900 197)" fill="#fff" font-size="20" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">IDO Listings</tspan></text>
+    <text id="Contract_and_Game_Auditing" data-name="Contract and Game Auditing" transform="translate(816 258)" fill="#fff" font-size="20" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">Contract and Game Auditing</tspan></text>
+    <text id="Arcade_Game_Demo_Release" data-name="Arcade Game Demo Release" transform="translate(816 319)" fill="#fff" font-size="20" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">Arcade Game Demo Release</tspan></text>
+    <text id="Additional_Game_Dev_Release" data-name="Additional Game Dev &amp; Release" transform="translate(801 380)" fill="#fff" font-size="20" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">Additional Game Dev &amp; Release</tspan></text>
+    <text id="NFT_Marketplace_Release" data-name="NFT &amp; Marketplace Release" transform="translate(822 441)" fill="#fff" font-size="20" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">NFT &amp; Marketplace Release</tspan></text>
+    <g id="Group_9" data-name="Group 9" transform="translate(-9)">
+      <text id="Q2" transform="translate(858 123)" fill="#fff" font-size="20" font-family="Montserrat-Regular, Montserrat"><tspan x="-14.29" y="0">Q2</tspan></text>
+      <text id="_2021" data-name="2021" transform="translate(767 123)" fill="#fff" font-size="20" font-family="Montserrat-Regular, Montserrat"><tspan x="-22.47" y="0">2021</tspan></text>
+      <text id="Additional_Features_Games" data-name="Additional Features &amp; Games" transform="translate(1055 123)" fill="#fff" font-size="19" font-family="Montserrat-Bold, Montserrat" font-weight="700"><tspan x="-139.327" y="0">Additional Features &amp; Games</tspan></text>
+      <line id="Line_5" data-name="Line 5" y2="29" transform="translate(817.5 101.5)" fill="none" stroke="#fff" stroke-width="1" opacity="0.71"/>
+      <line id="Line_6" data-name="Line 6" y2="29" transform="translate(898.5 101.5)" fill="none" stroke="#fff" stroke-width="1" opacity="0.71"/>
+    </g>
+  </g>
+</svg>

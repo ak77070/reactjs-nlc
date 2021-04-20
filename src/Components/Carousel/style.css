@@ -1,0 +1,143 @@
+.roadmapcard{
+    width: 100%;
+    overflow: hidden;
+    /* box-shadow: #E5972F 0px 0px 15px -5px; */
+    /* box-shadow: inset #e5972f 0px 0px 80px 20px; */
+    transition: 0.3s ease-in-out;
+    display: inline-block;
+    /* background-color: #E5972F; */
+    border: 2px solid transparent;
+    padding: 10px;
+    /* border-radius: 10px; */
+    /* margin-top: 1.5rem !important; */
+    color: #fff;
+    /* background: radial-gradient(circle, #f6af2e, #c96a32) !important; */
+    /* height: 220px; */
+    /* margin: 2%; */
+}
+.roadmapcard::before {
+    background: #E5972F !important;
+    opacity: 0.5 !important;
+}
+.roadmapcard:hover /* .roadmapcard:hover .card-title h5 */{
+    /* transform: scale(1.1);
+    box-shadow: 0px 0px 15px 8px; */
+    /* border: 2px solid #E5972F; */
+    /* color: #f6af2e;
+    box-shadow: inset #c96a32 0px 0px 80px 20px; */
+}
+.roadmapimg{
+    height: auto;
+    width: 100%;
+}
+
+.team-card-container{
+    width: 100%;
+    overflow: hidden;
+    /* box-shadow: 0px 0px 15px -5px; */
+    transition: 0.3s ease-in-out;
+    display: block;
+    background-color: #292828;
+    border: 2px solid transparent;
+    padding: 5% 0;
+    /* border-radius: 10px; */
+    /* margin-top: 1.5rem !important; */
+    color: #fff;
+    height: 350px;
+    text-align: center;
+}
+
+.image-container{
+    margin: 2%;
+    text-align: center;
+}
+
+.image-container img{
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+
+.card-content{
+    margin: 1rem;
+    margin-top: 0.5rem;
+}
+
+.card-body ul{
+    list-style: none;
+    padding: 0;
+}
+
+.card-body p, .card-body li{
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.2;
+    /* margin: 25px 0px 10px; */
+    color: #fff;
+}
+
+.card-title h4{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+.roadmapcard .card-title{
+    text-align: center;
+}
+
+.card-title{
+    margin: auto;
+}
+
+.teamrole{
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 1.2;
+    /* margin: 25px 0px 10px; */
+    color: #fff;
+}
+.teamname{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.2;
+    /* margin: 25px 0px 10px; */
+    color: #E5972F;
+}
+
+/* .btn{
+    display: flex;
+    justify-content: center;
+}
+
+.btn button{
+    padding: 0.5rem;
+    background-color: #fff;
+    border: none;
+    transition: 0.2s;
+    margin-bottom: 0.5rem;
+    border-radius: 3px;
+}
+
+.btn button:hover{
+    background: #000;
+
+}
+
+a{
+    text-transform: uppercase;
+    color: aqua;
+    text-decoration: none;
+    font-weight: bold;
+} */
+
+.heroimg{
+    width: auto;
+    height: 100%;
+    background-color: #000;
+}
+

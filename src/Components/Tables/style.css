@@ -1,0 +1,53 @@
+.table {
+    text-align: left;
+    font-family: arial, sans-serif;
+    color: white;
+  }
+  
+.table {
+    text-align: center;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    border: none;
+    width: 100%;
+    color: white;
+    border-radius: 10px !important;
+}
+  
+.table td, .table th {
+    border: none;
+    padding: 8px;
+    color: white;
+    border: none !important;
+}
+
+.table td span{
+    font-size: 12px;
+    padding: 0;
+}
+  
+.table tr:nth-child(odd){
+    background-color: #333438;
+}
+.table tr:nth-child(even){
+    background-color: #121418;
+}
+  
+/* .table tr:hover {
+    background-color: #ddd;
+} */
+  
+.table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #121418;
+    color: white;
+}
+
+/* Media Query for responsive app */
+@media screen and (max-width: 575.98px) {
+    .responsiveTable tbody tr {
+        height: 230px;
+    }
+}

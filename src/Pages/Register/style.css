@@ -1,0 +1,91 @@
+.rtxt2{
+    font-family: 'Raleway', sans-serif;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    font-weight: 300;
+    color: #fff;
+    letter-spacing: 1px;
+}
+.ppntos1{
+    text-decoration: none;
+    color: #282828;
+    text-align: center;
+    margin: 0 1%;
+    font-weight: 400;
+}
+.ppntos1:hover{
+    color: #000;
+    text-align: center;
+}
+
+
+.rsec1{
+    background: radial-gradient(circle, #f6af2e, #c96a32);
+    color: #fff;
+    padding: 5%;
+    overflow: hidden;
+    text-align: center;
+}
+.rbtn{
+    border: 2px solid #292828;
+    padding: 10px;
+    border-radius: 25px;
+    z-index: 99999999;
+    background-color: #292828;
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 420px;
+    height: auto;
+    box-shadow: 0px 0px 6px 3px rgb(255 255 255 / 50%);
+}
+.rbtn:hover, .rbtn:focus {
+    color: #E5972F; 
+    border: 2px solid #E5972F;
+}
+
+/* Generate Seed Phrase textarea */
+textarea{
+    width: 420px;
+    height: 200px;
+    margin: auto;
+    padding: 2%;
+}
+
+/* Import Seed Phrase input field */
+.seedinput{
+    width: 300px;
+    height: fit-content;
+    margin: auto;
+    padding: 1%;
+}
+.createpassword{
+    display: inline-flex;
+    margin: 1%;
+}
+.checkbox{
+    font-size: 12px;
+    display: block;
+}
+.forgot{
+    text-decoration: none;
+}
+.forgot:hover, .forgot:hover p{
+    text-decoration: none;
+    color: #292828 !important;
+}
+.passmust p{
+    font-size: 11px;
+    margin-left: 5% !important;
+}
+
+
+/* Media query for responsive app */
+@media screen and (max-width: 768px) {
+    .rbtn{
+        width: 300px;
+    }
+}

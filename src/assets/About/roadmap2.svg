@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="516" height="315" viewBox="0 0 516 315">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.115" y1="0.5" x2="0.897" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#cf7331"/>
+      <stop offset="0.51" stop-color="#eea32e"/>
+      <stop offset="1" stop-color="#cf7331"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_19" data-name="Group 19" transform="translate(-140 -112)">
+    <rect id="Rectangle_2" data-name="Rectangle 2" width="516" height="46" rx="23" transform="translate(140 198)" fill="url(#linear-gradient)"/>
+    <rect id="Rectangle_4" data-name="Rectangle 4" width="516" height="46" rx="23" transform="translate(140 259)" fill="url(#linear-gradient)"/>
+    <rect id="Rectangle_5" data-name="Rectangle 5" width="516" height="46" rx="23" transform="translate(140 320)" fill="url(#linear-gradient)"/>
+    <rect id="Rectangle_6" data-name="Rectangle 6" width="516" height="46" rx="23" transform="translate(140 381)" fill="url(#linear-gradient)"/>
+    <rect id="Rectangle_3" data-name="Rectangle 3" width="516" height="69" rx="34.5" transform="translate(140 112)" fill="#353434"/>
+    <text id="Platform_Ideation" data-name="Platform Ideation" transform="translate(310 228)" fill="#fff" font-size="20" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">Platform Ideation</tspan></text>
+    <text id="Pre-Sale" transform="translate(355 289)" fill="#fff" font-size="20" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">Pre-Sale</tspan></text>
+    <text id="Onboarding_Devs._Partners_Advisors" data-name="Onboarding Devs. Partners, Advisors" transform="translate(214 350)" fill="#fff" font-size="20" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">Onboarding Devs. Partners, Advisors</tspan></text>
+    <text id="Game_Contracts_Creation" data-name="Game &amp; Contracts Creation" transform="translate(261 411)" fill="#fff" font-size="20" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">Game &amp; Contracts Creation</tspan></text>
+    <g id="Group_10" data-name="Group 10" transform="translate(15 -0.5)">
+      <text id="Q1" transform="translate(290 154)" fill="#fff" font-size="20" font-family="Montserrat-Regular, Montserrat"><tspan x="-12.21" y="0">Q1</tspan></text>
+      <text id="_2021" data-name="2021" transform="translate(199 154)" fill="#fff" font-size="20" font-family="Montserrat-Regular, Montserrat"><tspan x="-22.47" y="0">2021</tspan></text>
+      <text id="Development_Release" data-name="Development &amp; Release" transform="translate(474 154)" fill="#fff" font-size="19" font-family="Montserrat-Bold, Montserrat" font-weight="700"><tspan x="-114.732" y="0">Development &amp; Release</tspan></text>
+      <line id="Line_3" data-name="Line 3" y2="29" transform="translate(249.5 132.5)" fill="none" stroke="#fff" stroke-width="1" opacity="0.71"/>
+      <line id="Line_4" data-name="Line 4" y2="29" transform="translate(330.5 132.5)" fill="none" stroke="#fff" stroke-width="1" opacity="0.71"/>
+    </g>
+  </g>
+</svg>
