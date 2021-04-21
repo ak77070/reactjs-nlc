@@ -118,19 +118,6 @@
     border-bottom: 3px solid #E5972F;
 }
 
-/* .gameitem a{
-    padding-bottom: 38px;
-} */
-/* .gameitem::after:active a{
-    padding-bottom: 40px;
-    content: "";
-    display: block;
-    height: 3px;
-    width: 0;
-    background: transparent;
-    transition: width 0.7s ease, background-color 0.5s ease;
-    border-bottom: 3px solid #E5972F !important;
-} */
 .gamearrow{
     vertical-align: text-bottom;
     font-size: larger;
@@ -167,9 +154,7 @@
     border: none;
     padding: 0;
 }
-/* .navdropdown a{
-    padding-bottom: 38px;
-} */
+
 .navdropdown::after{
     border: none;
     height: 0;

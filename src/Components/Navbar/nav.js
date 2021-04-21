@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { Fragment, useState } from "react";
 import { NavLink } from "react-router-dom";
 import "./style.css";
 import { FaBars, FaTimes } from 'react-icons/fa';
@@ -13,7 +13,7 @@ import logo from "../../assets/navlogo.svg";
 
 
 function Navbar() {
-
+    // Social dropdown state hooks code 
     const [show, setShow] = useState(false);
     const showDropdown = (e)=>{
         setShow(!show);
@@ -22,6 +22,7 @@ function Navbar() {
         setShow(false);
     }
 
+    // Games dropdown state hooks code
     const [click, setClick] = useState(false);
     const [dropdown, setDropdown] = useState(false);
 
@@ -35,7 +36,6 @@ function Navbar() {
         setDropdown(true);
         }
     };
-
     const onMouseLeave = () => {
         if (window.innerWidth < 960) {
         setDropdown(false);
@@ -43,6 +43,12 @@ function Navbar() {
         setDropdown(false);
         }
     };
+
+    const [logedIn, setLogedIn] = useState(false);
+    const showNav = () => {
+        setLogedIn(true);
+      };
+
     return (
         <>
             <nav className="navbar">
@@ -107,22 +113,9 @@ function Navbar() {
                         </li>
                         <li
                             className="nav-item nav-links navdropdown mr-0"
-                            // onMouseEnter={onMouseEnter}
-                            // onMouseLeave={onMouseLeave}
                             onMouseEnter={showDropdown} 
                             onMouseLeave={hideDropdown}
                         >
-                            {/* <NavLink
-                                exact
-                                to="/nlc/Socials"
-                                activeClassName="active"
-                                className="nav-links"
-                                onClick={closeMobileMenu}
-                            > */}
-                                {/* Socials */}
-                            {/* </NavLink> */}
-                            {/* {dropdown && <SocialsDropdown />} */}
-
                             <NavDropdown 
                                 title="Socials" 
                                 id="collasible-nav-dropdown" 
@@ -139,9 +132,9 @@ function Navbar() {
                                 <NavDropdown.Item className="dropdownlist" href="https://t.me/nightlifecrypto" target="_blank">Telegram</NavDropdown.Item>
                                 <NavDropdown.Item className="dropdownlist" href="https://flote.app/user/nightlifecrypto" target="_blank">Flote</NavDropdown.Item>
                             </NavDropdown>
-
                         </li>
-                        
+                        {logedIn ?
+                        <Fragment>
                         <li className="nav-item">
                             <NavLink
                                 exact
@@ -164,6 +157,9 @@ function Navbar() {
                                 Achievements
                             </NavLink>
                         </li>
+                        </Fragment>
+                        :
+                        <Fragment>
                         <li>
                             <NavLink
                                 exact
@@ -172,9 +168,11 @@ function Navbar() {
                                 className="nav-links"
                                 onClick={closeMobileMenu}
                             >
-                                <button className="button navbtn text-uppercase">Play Now </button>
+                                <button onClick={showNav} className="button navbtn text-uppercase">Play Now </button>
                             </NavLink>
                         </li>
+                        </Fragment>
+                        }
                     </ul>
                 </div>
             </nav>
