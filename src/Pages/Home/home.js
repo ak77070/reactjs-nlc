@@ -4,14 +4,14 @@ import { Container, Row, Col } from 'react-bootstrap';
 import { Link } from "react-router-dom";   // Link used for buttons
 
 // Components used
-// import Card, {Card1} from '../../Components/Cards/card'
-// import Carousel from '../../Components/Carousel/carousel'
-// import TeamCarousel from '../../Components/Carousel/teamcarousel'
-// Utilities used
-import MetaDecorator from '../../Components/Utils/MetaDecorator';
-import Animation from '../../Components/Utils/JsonAnimation';
+import Card, {Card1} from '../../Components/Cards/card' // "Card" & "Card1" cards used for Our platform section
+import { WHeading, OHeading } from '../../Components/Headings/Heading'; // Heading component used
 
-// Images used
+// Utilities used
+import MetaDecorator from '../../Components/Utils/MetaDecorator'; // Homepage meta title and description for better SEO
+import Animation from '../../Components/Utils/JsonAnimation'; // Json animations used
+
+// Images used in homepage
 import sec1img from "../../assets/Home/sec1img.svg";
 import splitter from "../../assets/Home/sec1hr.svg"
 import sec6img1 from "../../assets/Home/sec6img1.svg"
@@ -24,18 +24,17 @@ import Controller from '../../JsonFiles/Controller.json';
 import Achievement from '../../JsonFiles/Achievement.json';
 import Defi from '../../JsonFiles/Defi.json';
 import Arrows from '../../JsonFiles/Arrows.json';
-import { WHeading, OHeading } from '../../Components/Headings/Heading';
 
-const Card = lazy(() => import('../../Components/Cards/card'));
-const Card1 = lazy(() => import('../../Components/Cards/card'));
-const Carousel = lazy(() => import('../../Components/Carousel/carousel'));
-const TeamCarousel = lazy(() => import('../../Components/Carousel/teamcarousel'));
+// Code splitting
+const Carousel = lazy(() => import('../../Components/Carousel/carousel')); // Lazy loading the roadmap carousel
+const TeamCarousel = lazy(() => import('../../Components/Carousel/teamcarousel')); // Lazy loading the team carousel
 
 class index extends Component {
     render() {
 
         return (
             <>
+                {/* Homepage meta title and description for better SEO */}
                 <MetaDecorator 
                     title={"Night Life Crypto | The Pioneer of DeFi Gaming & Staking"} 
                     description={"NLife is a self-sustaining, all on-chain gaming platform with zero game transaction fees for users, where users are able to stake liquidity"}
@@ -44,6 +43,7 @@ class index extends Component {
                 <Container fluid>
                     <Row>
                         <Col className="herosec p-0">
+                            {/* Intro video import directly from public folder */}
                             <video src={process.env.PUBLIC_URL + '/Videos/introvid.mp4'} width="100%" height="100%" autoPlay muted/>
                         </Col>
                     </Row>
@@ -57,10 +57,10 @@ class index extends Component {
                                 <p className="txt2">Get Paid for Staking Liquidity, Play Games, Gamble and Much More!</p>
                             </div>
                             <div className="sec1-12 btnsec1">
-                            <Link to="/nlc/Login" className="ppntos1 m-1">
+                            <Link to="/Login" className="ppntos1 m-1">
                                 <button className="button homebtn text-uppercase">Login </button>
                             </Link>
-                            <Link to="/nlc/Register" className="ppntos1 m-1">
+                            <Link to="/Register" className="ppntos1 m-1">
                                 <button className="button homebtn text-uppercase">Get Started </button>
                             </Link>
                             </div>
@@ -83,6 +83,9 @@ class index extends Component {
                                 <WHeading text={"Not just another gaming platform"} />
                             </Col>
                         </Row>
+                        {/* Lazy loading is rendered in suspense.
+                        Suspense is used to make components wait for something before they can render,
+                        fallback prop renders element while waiting for the loading */}
                         <Suspense fallback={<div/>}>
                             <Row>
                                 <Col className="sec2-13">
@@ -144,7 +147,7 @@ class index extends Component {
                                 <h2 className="txt6">To Advance Blockchain Gaming</h2>
                                 <p className="pt-3 txt7">We are not only producing an on-chain casino, but also AAA type Arcade games that users can get achievements in, which will award them with an NFT. Collect them and trade them in for prizes, or sell them in the upcoming marketplace! Every arcade game will be integrated with the blockchain, and leader boards will be available for each game produced.</p>
                                 <p className="pt-3 txt7">Our tokenomics make Night Life Crypto a self-sustaining platform. Users have full control over their wallets by generating a seed phrase as well as the ability to activate the built in on-chain 2FA (or play anonymously if you wish). Users can also stake liquidity and earn NLIFE.</p>
-                                <Link to="/nlc/About" className="ppntos1 m-1">
+                                <Link to="/About" className="ppntos1 m-1">
                                     <button className="button homebtn text-uppercase mt-4">Read More </button>
                                 </Link>
                             </Col>
@@ -209,7 +212,7 @@ class index extends Component {
                                     <WHeading text={"How It Works"} />
                                     <p className="pt-3 txt7">Users can purchase tokens on Pancakeswap. From there, they generate a seed phrase on our platform (or log in if they have already done so). From there, they send tokens from their BSC wallet to their NLIFE platform wallet. After that, they are able to play any game on the platform!</p>
                                     <p className="pt-3 txt7">For liquidity staking, the user would need to provide liquidity for the NLIFE/BNB pair on Pancakeswap. Afterwards, the user can click on the Staking link at the top menu (or the button below). From there, you connect your Metamask or Binance Smart Chain wallet and enter in the amount of liquidity tokens you would like to stake, then hit stake! The user will get a portion of the transfer fees based on the amount staked vs the total amount staked by all users.</p>
-                                    <Link to="nlc/Staking" className="ppntos1 m-1">
+                                    <Link to="/Staking" className="ppntos1 m-1">
                                         <button className="button homebtn text-uppercase mt-4">Stake Liquidity </button>
                                     </Link>
                                 </Col>

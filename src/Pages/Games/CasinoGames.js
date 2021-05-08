@@ -16,32 +16,32 @@ class CasinoGames extends Component {
                 <Container>
                     <Row>
                         <Col md={6} className="mb-3">
-                            <Link to="/nlc/Blackjack">
+                            <Link to="/Roulette">
+                                <img src={gamesimg4} className="gamesimg" width="100%" height="auto" alt="NLIFE Games"/>
+                            </Link>
+                        </Col>
+                        <Col md={6} className="mb-3">
+                            <Link to="/Slots">
+                                <img src={gamesimg5} className="gamesimg" width="100%" height="auto" alt="NLIFE Games"/>
+                            </Link>
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col md={6} className="mb-3">
+                            <Link to="#">
                                 <img src={gamesimg1} className="gamesimg" width="100%" height="auto" alt="NLIFE Games"/>
                             </Link>
                         </Col>
                         <Col md={6} className="mb-3">
-                            <Link to="/nlc/CarribeanStudPoker">
+                            <Link to="#">
                                 <img src={gamesimg2} className="gamesimg" width="100%" height="auto" alt="NLIFE Games"/>
                             </Link>
                         </Col>
                     </Row>
                     <Row>
                         <Col md={6} className="mb-3">
-                            <Link to="/nlc/Craps">
+                            <Link to="#">
                                 <img src={gamesimg3} className="gamesimg" width="100%" height="auto" alt="NLIFE Games"/>
-                            </Link>
-                        </Col>
-                        <Col md={6} className="mb-3">
-                            <Link to="/nlc/Roulette">
-                                <img src={gamesimg4} className="gamesimg" width="100%" height="auto" alt="NLIFE Games"/>
-                            </Link>
-                        </Col>
-                    </Row>
-                    <Row>
-                        <Col md={6} className="mb-3">
-                            <Link to="/nlc/Slots">
-                                <img src={gamesimg5} className="gamesimg" width="100%" height="auto" alt="NLIFE Games"/>
                             </Link>
                         </Col>
                     </Row>

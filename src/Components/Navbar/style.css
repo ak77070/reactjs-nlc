@@ -118,7 +118,7 @@
     border-bottom: 3px solid #E5972F;
 }
 
-.gamearrow{
+.arrow{
     vertical-align: text-bottom;
     font-size: larger;
     margin: 0 !important;
@@ -139,7 +139,7 @@
     color: #fff;
     font-weight: bold;
     font-size: 18px;
-    margin-right: 2%;
+    /* margin-left: 10%; */
 }
 .navbtn:hover {
     color: #292828; 
@@ -151,7 +151,7 @@
 }
 
 .navdropdown{
-    border: none;
+    /* border: none; */
     padding: 0;
 }
 
@@ -209,10 +209,53 @@
 }
 .dropdown-menu.show{
     top: 35px !important;
-    transform: translate(0px, 65px) !important;
+    /* transform: translate(0px, 65px) !important; */
 }
 
-@media screen and (max-width: 960px) {
+.nav-center{
+    display: flex;
+}
+
+.nav-right{
+    display: flex;
+    position: absolute;
+    right: 3%;
+}
+.nav-rightbtn{
+    position: absolute;
+    right: 3%;
+}
+.user-icon{
+    height: 2rem !important;
+    width: 2rem !important;
+    color: #E5972F;
+}
+.nav-rightuser{
+    line-height: 40px;
+    margin-right: 0.5rem;
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
+.nav-mobuser{
+    display: none;
+}
+
+
+@media screen and (max-width: 1199.98px) {
+    .nav-right{
+        display: flex;
+        position: inherit;
+        right: 3%;
+    }
+    .nav-rightbtn{
+        position: inherit;
+        right: 3%;
+    }
+}
+
+@media screen and (max-width: 991.98px) {
     .nav-menu {
         display: flex;
         flex-direction: column;
@@ -252,21 +295,11 @@
         display: block;
         position: absolute;
         top: 0;
-        right: 0;
-        transform: translate(-100%, 60%);
+        left: 0;
+        transform: translate(100%, 60%);
         font-size: 1.8rem;
         cursor: pointer;
         color: #E5972F;
-    }
-
-    .menu-icon {
-        display: block;
-        position: absolute;
-        top: 0;
-        right: 0;
-        transform: translate(-100%, 60%);
-        font-size: 1.8rem;
-        cursor: pointer;
     }
 
     .fa-times {
@@ -309,5 +342,30 @@
 
     .gameitem a{
         padding-bottom: 16px;
+    }
+
+    .nav-right{
+        position: initial;
+    }
+    .nav-rightbtn{
+        position: initial;
+    }
+    .nav-rightuser{
+        display: none;
+    }
+    .nav-mobuser{
+        display: block;
+        position: absolute;
+        /* top: 0; */
+        right: 0;
+        /* transform: translate(-100%, 60%); */
+        /* font-size: 2rem !important; */
+        cursor: pointer;
+        color: #E5972F;
+        line-height: 40px;
+        margin-right: 0.5rem;
+        display: flex;
+        align-items: center;
+        height: 100px;
     }
 }

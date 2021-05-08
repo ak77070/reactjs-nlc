@@ -48,6 +48,6 @@
 /* Media Query for responsive app */
 @media screen and (max-width: 575.98px) {
     .responsiveTable tbody tr {
-        height: 230px;
+        height: 250px;
     }
 }

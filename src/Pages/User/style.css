@@ -59,9 +59,6 @@
 /* --------User Accounts page styling end-------- */
 
 /* -----User Achievement page styling start----- */
-.achtxt1{
-    text-align: center;
-    margin-top: 3% !important;
-    font-weight: bold;
-    text-transform: uppercase;
+.filterNFT{
+    color: #292828;
 }

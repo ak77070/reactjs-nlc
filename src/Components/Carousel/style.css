@@ -19,13 +19,13 @@
     background: #E5972F !important;
     opacity: 0.5 !important;
 }
-.roadmapcard:hover /* .roadmapcard:hover .card-title h5 */{
+/* .roadmapcard:hover .roadmapcard:hover .card-title h5{ */
     /* transform: scale(1.1);
     box-shadow: 0px 0px 15px 8px; */
     /* border: 2px solid #E5972F; */
     /* color: #f6af2e;
     box-shadow: inset #c96a32 0px 0px 80px 20px; */
-}
+/* } */
 .roadmapimg{
     height: auto;
     width: 100%;
@@ -106,7 +106,7 @@
     font-weight: bold;
     line-height: 1.2;
     /* margin: 25px 0px 10px; */
-    color: #E5972F;
+    color: #E5972F !important;
 }
 
 /* .btn{

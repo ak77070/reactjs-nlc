@@ -13,11 +13,11 @@ class Regorimp extends Component {
                   <h2 className="txt1 text-uppercase text-center mb-0 pb-0"> Register / import your account </h2>
                   <p className="rtxt2">By creating an account you agree to our</p>
                   <p className="rtxt2 mb-4">
-                    <Link to="/nlc/PrivacyPolicy" className="ppntos1 m-1">
+                    <Link to="/PrivacyPolicy" className="ppntos1 m-1">
                         Privacy Policy
                     </Link>
                         &  
-                    <Link to="/nlc/TermsOfServices" className="ppntos1 m-1">
+                    <Link to="/TermsOfServices" className="ppntos1 m-1">
                         Terms Of Service
                     </Link>
                   </p>
@@ -25,7 +25,7 @@ class Regorimp extends Component {
               </Row>
               <Row>
                 <Col>
-                  <Link to="/nlc/GenerateSeed">
+                  <Link to="/GenerateSeed">
                     <button className="button rbtn text-uppercase mt-5">Create Account </button>
                   </Link>
                   <p className="rtxt2 mt-2">Create a New Account</p>
@@ -33,7 +33,7 @@ class Regorimp extends Component {
               </Row>
               <Row>
                 <Col>
-                  <Link to="/nlc/ImportSeed">
+                  <Link to="/ImportSeed">
                     <button className="button rbtn text-uppercase mt-5">Import seed phrase</button>
                   </Link>
                   <p className="rtxt2 mt-2">Already Have an Account? Import Your Seed Phrase</p>

@@ -79,34 +79,6 @@ function Card1({title, imageUrl}) {
     )
 }
 
-// function AboutTeam({title, imageUrl, body}) {
-//     return (
-//         // <div className="card-container">
-//         //     <div className="image-container">
-//         //         <img src={imageUrl} alt=''/>
-//         //     </div>
-//         //     <div className="card-content">
-//         //         <div className="card-title">
-//         //             <h4>{title}</h4>
-//         //         </div>
-//         //         <div className="card-body">
-//         //             <p>{body}</p>
-//         //         </div>
-//         //     </div>
-//         // </div>
-
-//         <div className="card">
-//             <div className="cardimgsec">
-//                 <img src={imageUrl} alt=''/>
-//             </div>
-//             <div className="cardtxt">
-//                 <h4>{title}</h4>
-//                 <p>{body}</p>
-//             </div>
-//         </div>
-//     )
-// }
-
 
 export {Card1}
 export default Card

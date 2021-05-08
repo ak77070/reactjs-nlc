@@ -73,7 +73,7 @@ function Carousel({heading, title, body}) {
     }
     return (
         <Slider {...settings}>
-          <div className="">
+          <div>
             <div className="card-container roadmapcard">
                 {/* <div className="card-content">
                     <div className="card-title">
@@ -94,7 +94,7 @@ function Carousel({heading, title, body}) {
                 <img src={roadmap1} className="roadmapimg" alt="sec1img"/>
             </div>
           </div>
-          <div className="">
+          <div>
             <div className="card-container roadmapcard">
                 {/* <div className="card-content">
                     <div className="card-title">
@@ -115,7 +115,7 @@ function Carousel({heading, title, body}) {
                 <img src={roadmap2} className="roadmapimg" alt="sec1img"/>
             </div>
           </div>
-          <div className="">
+          <div>
             <div className="card-container roadmapcard">
                 {/* <div className="card-content">
                     <div className="card-title">
@@ -136,7 +136,7 @@ function Carousel({heading, title, body}) {
                 <img src={roadmap3} className="roadmapimg" alt="sec1img"/>
             </div>
           </div>
-          <div className="">
+          <div>
             <div className="card-container roadmapcard">
                 {/* <div className="card-content">
                     <div className="card-title">
@@ -157,7 +157,7 @@ function Carousel({heading, title, body}) {
                 <img src={roadmap4} className="roadmapimg" alt="sec1img"/>
             </div>
           </div>
-          <div className="">
+          <div>
             <div className="card-container roadmapcard">
                 {/* <div className="card-content">
                     <div className="card-title">

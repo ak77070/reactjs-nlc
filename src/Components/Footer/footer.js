@@ -22,7 +22,7 @@ class Footer extends Component {
                 </Row>
                 <Row className="foot1 p-4">
                     <Col>
-                    <Link to="/nlc" className="ppntos">
+                    <Link to="/" className="ppntos">
                         <img src={footerlogo} className="footerlogo" width='60%' height='auto' alt='logo' />
                     </Link>
                     </Col>
@@ -49,11 +49,11 @@ class Footer extends Component {
                 </Row>
                 <Row className="foot1">
                     <Col>
-                        <Link to="/nlc/PrivacyPolicy" className="ppntos">
+                        <Link to="/PrivacyPolicy" className="ppntos">
                             Privacy Policy
                         </Link>
                             |  
-                        <Link to="/nlc/TermsOfServices" className="ppntos">
+                        <Link to="/TermsOfServices" className="ppntos">
                             Terms Of Service
                         </Link>
                     </Col>

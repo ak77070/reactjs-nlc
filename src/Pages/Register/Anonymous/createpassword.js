@@ -46,16 +46,16 @@ class CreatePassword extends Component {
                 <form>
                     <label className="checkbox">
                         <input type="checkbox" required/> I have read and agree with the
-                        <Link to="/nlc/PrivacyPolicy" className="ppntos1 m-1">
+                        <Link to="/PrivacyPolicy" className="ppntos1 m-1">
                             Privacy Policy
                         </Link>
                             &  
-                        <Link to="/nlc/TermsOfServices" className="ppntos1 m-1">
+                        <Link to="/TermsOfServices" className="ppntos1 m-1">
                             Terms Of Service
                         </Link>
                     </label>
                 </form>
-                  <Link to="/nlc/Login">
+                  <Link to="/Login">
                     <button className="button rbtn text-uppercase">Continue</button>
                   </Link>
                 </Col>

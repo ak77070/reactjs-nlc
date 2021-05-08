@@ -4,13 +4,21 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import teamimg1 from "../../assets/Home/TeamMembers/teamimg1.svg";
-import teamimg2 from "../../assets/Home/TeamMembers/teamimg2.svg";
-import teamimg3 from "../../assets/Home/TeamMembers/teamimg3.svg";
-import teamimg4 from "../../assets/Home/TeamMembers/teamimg4.svg";
-import teamimg5 from "../../assets/Home/TeamMembers/teamimg5.svg";
-import teamimg6 from "../../assets/Home/TeamMembers/teamimg6.svg";
-import teamimg7 from "../../assets/Home/TeamMembers/teamimg7.svg";
+// import teamimg1 from "../../assets/Home/TeamMembers/teamimg1.svg";
+// import teamimg2 from "../../assets/Home/TeamMembers/teamimg2.svg";
+// import teamimg3 from "../../assets/Home/TeamMembers/teamimg3.svg";
+// import teamimg4 from "../../assets/Home/TeamMembers/teamimg4.svg";
+// import teamimg5 from "../../assets/Home/TeamMembers/teamimg5.svg";
+// import teamimg6 from "../../assets/Home/TeamMembers/teamimg6.svg";
+// import teamimg7 from "../../assets/Home/TeamMembers/teamimg7.svg";
+
+import teamsq1 from "../../assets/About/TeamMembers/teamsq1.svg";
+import teamsq2 from "../../assets/About/TeamMembers/teamsq2.svg";
+import teamsq3 from "../../assets/About/TeamMembers/teamsq3.svg";
+import teamsq4 from "../../assets/About/TeamMembers/teamsq4.svg";
+import teamsq5 from "../../assets/About/TeamMembers/teamsq5.svg";
+import teamsq6 from "../../assets/About/TeamMembers/teamsq6.svg";
+import teamsq7 from "../../assets/About/TeamMembers/teamsq7.svg";
 
 function SampleNextArrow(props) {
     const { className, style, onClick } = props;
@@ -39,7 +47,7 @@ function TeamCarousel({heading, title, body}) {
         // dots: true,
         infinite: true,
         speed: 500,
-        slidesToShow: 3,
+        slidesToShow: 4,
         slidesToScroll: 1,
         cssEase: "linear",
         autoplay: true,
@@ -48,37 +56,40 @@ function TeamCarousel({heading, title, body}) {
         prevArrow: <SamplePrevArrow />,
         responsive: [
             {
-              breakpoint: 1024,
-              settings: {
-                slidesToShow: 3,
-                slidesToScroll: 3,
-                infinite: true,
-                dots: true
-              }
+                breakpoint: 1400,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: true
+                }
             },
             {
-              breakpoint: 768,
-              settings: {
-                slidesToShow: 2,
-                slidesToScroll: 2,
-                initialSlide: 2
-              }
+                breakpoint: 900,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    initialSlide: 1,
+                }
             },
             {
-              breakpoint: 480,
-              settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1
-              }
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
             }
           ]
     }
     return (
         <Slider {...settings}>
         <div className="p-2">
-            <div className="team-card-container">
-                <div className="image-container">
+            <div className="teamcard" style={{height:"450px"}}>
+                {/* <div className="image-container">
                     <img src={teamimg1} className="teamimg" width="100%" height="auto" alt="Lead Developer"/>
+                </div> */}
+                <div className="cardimgsec">
+                    <img src={teamsq7} className="cardimg" width="100%" height="auto" alt="Blockchain assets"/>
                 </div>
                 <div className="card-content">
                     <div className="card-title">
@@ -92,9 +103,9 @@ function TeamCarousel({heading, title, body}) {
             </div>
         </div>
         <div className="p-2">
-            <div className="team-card-container">
-                <div className="image-container">
-                    <img src={teamimg2} className="teamimg" width="100%" height="auto" alt="Lead Developer"/>
+            <div className="teamcard" style={{height:"450px"}}>
+                <div className="cardimgsec">
+                    <img src={teamsq1} className="cardimg" width="100%" height="auto" alt="Blockchain assets"/>
                 </div>
                 <div className="card-content">
                     <div className="card-title">
@@ -108,9 +119,9 @@ function TeamCarousel({heading, title, body}) {
             </div>
         </div>
         <div className="p-2">
-            <div className="team-card-container">
-                <div className="image-container">
-                    <img src={teamimg3} className="teamimg" width="100%" height="auto" alt="Lead Developer"/>
+            <div className="teamcard" style={{height:"450px"}}>
+                <div className="cardimgsec">
+                    <img src={teamsq2} className="cardimg" width="100%" height="auto" alt="Blockchain assets"/>
                 </div>
                 <div className="card-content">
                     <div className="card-title">
@@ -124,9 +135,9 @@ function TeamCarousel({heading, title, body}) {
             </div>
         </div>
         <div className="p-2">
-            <div className="team-card-container">
-                <div className="image-container">
-                    <img src={teamimg4} className="teamimg" width="100%" height="auto" alt="Lead Developer"/>
+            <div className="teamcard" style={{height:"450px"}}>
+                <div className="cardimgsec">
+                    <img src={teamsq3} className="cardimg" width="100%" height="auto" alt="Blockchain assets"/>
                 </div>
                 <div className="card-content">
                     <div className="card-title">
@@ -140,9 +151,9 @@ function TeamCarousel({heading, title, body}) {
             </div>
         </div>
         <div className="p-2">
-            <div className="team-card-container">
-                <div className="image-container">
-                    <img src={teamimg5} className="teamimg" width="100%" height="auto" alt="Lead Developer"/>
+            <div className="teamcard" style={{height:"450px"}}>
+                <div className="cardimgsec">
+                    <img src={teamsq4} className="cardimg" width="100%" height="auto" alt="Blockchain assets"/>
                 </div>
                 <div className="card-content">
                     <div className="card-title">
@@ -156,9 +167,9 @@ function TeamCarousel({heading, title, body}) {
             </div>
         </div>
         <div className="p-2">
-            <div className="team-card-container">
-                <div className="image-container">
-                    <img src={teamimg6} className="teamimg" width="100%" height="auto" alt="Lead Developer"/>
+            <div className="teamcard" style={{height:"450px"}}>
+                <div className="cardimgsec">
+                    <img src={teamsq6} className="cardimg" width="100%" height="auto" alt="Blockchain assets"/>
                 </div>
                 <div className="card-content">
                     <div className="card-title">
@@ -172,9 +183,9 @@ function TeamCarousel({heading, title, body}) {
             </div>
         </div>
         <div className="p-2">
-            <div className="team-card-container">
-                <div className="image-container">
-                    <img src={teamimg7} className="teamimg" width="100%" height="auto" alt="Lead Developer"/>
+            <div className="teamcard" style={{height:"450px"}}>
+                <div className="cardimgsec">
+                    <img src={teamsq5} className="cardimg" width="100%" height="auto" alt="Blockchain assets"/>
                 </div>
                 <div className="card-content">
                     <div className="card-title">

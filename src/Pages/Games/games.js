@@ -7,6 +7,7 @@ import 'react-tabs/style/react-tabs.css';
 
 // Games data
 import CasinoGames from './CasinoGames'
+import ArcadeGames from './ArcadeGames';
 
 class Games extends Component {
     render() {
@@ -55,7 +56,7 @@ class Games extends Component {
                         <CasinoGames/>
                       </TabPanel>
                       <TabPanel style={tabpanel}>
-                        <h3>Coming Soon</h3>
+                        <ArcadeGames/>
                       </TabPanel>
                       <TabPanel style={tabpanel}>
                         <h3>Coming Soon</h3>

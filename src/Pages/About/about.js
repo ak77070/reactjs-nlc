@@ -14,6 +14,7 @@ import whitepaperpdf from "../../assets/Documents/NLCWhitepaper.pdf"
 
 // Utilities used
 import MetaDecorator from '../../Components/Utils/MetaDecorator';
+import { WHeading, OHeading } from '../../Components/Headings/Heading';
 
 const TokenomicTable = lazy(() => import('../../Components/Tables/table'));
 const PayoutTable = lazy(() => import('../../Components/Tables/payouts'));
@@ -32,12 +33,12 @@ class About extends Component {
             <Container fluid className="asec1">
               <Row>
                 <Col md={6} className="asec1-1">
-                  <h1 className="text-left mb-0 atxt1">What is NLIFE?</h1>
+                  <WHeading text={"What is NLIFE?"} />
                   <p className="pt-3 atxt2">NLIFE is a self-sustaining, all-on-chain gaming platform with zero game transaction fees for users, where users are able to stake liquidity. The NLIFE Gaming Platform brings several technical and strategic "firsts” to the online and blockchain gaming industry. NLIFE achieved these by harnessing the unique properties of Turtle Network in combination with the liquidity options on Pancakeswap.</p>
                   <p className="pt-3 atxt2">Our second layer solution, Turtle Network, allows us to provide users with instant confirmation times for bets and results, as well as allow zero fees for each game transaction. This remarkable distinguishing feature simulating real life gaming experiences. Users start by purchasing tokens on Pancakeswap and sending them to their gaming wallet.</p>
                   <p className="pt-3 atxt2">In the backend, BSC NLIFE tokens will be converted to tokens on Turtle Network and users are ready to play. When withdrawing tokens to your BSC wallet, gas fees are paid in NLIFE instead of BNB. This feature simplifies transactions so that the user does not have hold BNB for withdrawals.</p>
                   <p className="pt-3 atxt2">Lastly, the user's gaming wallet is non-custodial, meaning the user owns the seed phrase to their wallet, allowing the user to have full control, as well as the the only one who can access the wallet. For more infomationn, read our whitepaper.</p>
-                  <a href={whitepaperpdf} without rel="noreferrer" target="_blank">
+                  <a href={whitepaperpdf} without="true" rel="noreferrer" target="_blank">
                     <button className="button wbtn text-uppercase mt-4">Whitepaper </button>
                   </a>
                 </Col>
@@ -51,7 +52,7 @@ class About extends Component {
               <Container fluid className="asec2">
                 <Row>
                   <Col className="asec2-1">
-                    <h1 className="text-center mb-0 atxt3">Tokenomics</h1>
+                    <OHeading text={"Tokenomics"} />
                   </Col>
                 </Row>
                 <Row>
@@ -61,7 +62,7 @@ class About extends Component {
                 </Row>
                 <Row>
                   <Col className="asec2-3">
-                    <h1 className="text-center mb-0 mt-3 atxt3">Liquidity pool staking payouts</h1>
+                    <OHeading text={"Liquidity pool staking payouts"} />
                   </Col>
                 </Row>
                 <Row>
@@ -74,7 +75,7 @@ class About extends Component {
               <Container fluid className="asec3 asec1">
                 <Row className="asec3-1">
                   <Col className="asec3-11">
-                    <h1 className="text-center pb-4 pt-5 atxt1">Advisors and partners</h1>
+                    <WHeading text={"Advisors and partners"} />
                   </Col>
                 </Row>
                 <Row className="asec3-2">
@@ -87,7 +88,7 @@ class About extends Component {
               <Container fluid className="asec4">
                 <Row className="asec4-1">
                   <Col className="asec4-11">
-                    <h1 className="text-center mb-0 atxt3">Roadmap</h1>
+                    <OHeading text={"Roadmap"} />
                   </Col>
                 </Row>
                 <Row className="asec4-2">

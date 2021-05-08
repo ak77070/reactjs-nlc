@@ -21,13 +21,13 @@ class GenerateSeed extends Component {
               <Row>
                 <Col>
                     <form>
-                        <textarea value={this.state.value} />
+                        <textarea defaultValue={this.state.value} />
                     </form>
                 </Col>
               </Row>
               <Row>
                 <Col>
-                  <Link to="/nlc/games">
+                  <Link to="/games">
                     <button className="button rbtn text-uppercase mt-5">Continue</button>
                   </Link>
                 </Col>

@@ -39,7 +39,7 @@ class Staking extends Component {
                   <StakingCards/>
                 </Col>
               </Row>
-              <Row>
+              {/* <Row>
                 <Col>
                   <div>
                     <h5 className="lstxt1">CAKE/BNB</h5>
@@ -50,7 +50,7 @@ class Staking extends Component {
                 <Col>
                   <StakingCards/>
                 </Col>
-              </Row>
+              </Row> */}
             </Container>
           </>
         )

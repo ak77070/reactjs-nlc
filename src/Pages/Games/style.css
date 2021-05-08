@@ -11,6 +11,9 @@
 .react-tabs__tab-list{
     display: flex;
 }
+.react-tabs__tab{
+    border: 1px solid #c96a32 !important;
+}
 .tab{
     line-height: 3;
 }

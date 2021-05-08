@@ -1,9 +1,12 @@
 /* Styling of the text used */
 .lstxt1{
     text-align: center;
-    margin-top: 5% !important;
+    margin: 5% 0 1% 0 !important;
     /* color: #000; */
     font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: #000 3px 3px 4px;
+    letter-spacing: 1px;
 }
 
 /* ----- LP Staking section start ----- */

@@ -25,10 +25,10 @@ class ImportSeed extends Component {
               </Row>
               <Row>
                 <Col>
-                  <Link to="/nlc/games">
+                  <Link to="/games">
                     <button className="button rbtn text-uppercase mt-5">Continue</button>
                   </Link>
-                  <Link to="/nlc/CreatePassword" className="forgot mt-2">
+                  <Link to="/CreatePassword" className="forgot mt-2">
                     <p className="mt-2">Forgot Your Password?</p>
                   </Link>
                 </Col>

@@ -34,7 +34,10 @@
 }
 
 .socials{
-  display: inline-flex;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
 }
 
 .socials a{

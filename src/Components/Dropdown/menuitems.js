@@ -1,57 +1,62 @@
+import DepositModal, { WithdrawModal } from '../Modal/userModal'
+
 export const GamesItems = [
     {
-      title: 'Blackjack',
-      path: '/nlc/Blackjack',
+      title: 'Roulette',
+      path: '/Roulette',
       cName: 'dropdown-link'
+    },
+    {
+      title: 'Slots',
+      path: '/Slots',
+      cName: 'dropdown-link'
+    },
+    {
+      title: 'NLIFE Drifting',
+      path: '/nlc/WebGLGame',
+      cName: 'dropdown-link'
+    },
+    {
+      title: 'Blackjack',
+      subtitle: '(Coming Soon)',
+      path: '#',
+      cName: 'dropdown-unlink'
     },
     {
       title: 'Carribean Stud Poker',
-      path: '/nlc/CarribeanStudPoker',
-      cName: 'dropdown-link'
+      subtitle: '(Coming Soon)',
+      path: '#',
+      cName: 'dropdown-unlink'
     },
     {
       title: 'Craps',
-      path: '/nlc/Craps',
-      cName: 'dropdown-link'
-    },
-    {
-      title: 'Roulette',
-      path: '/nlc/Roulette',
-      cName: 'dropdown-link'
-    },
-    {
-        title: 'Slots',
-        path: '/nlc/Slots',
-        cName: 'dropdown-link'
+      subtitle: '(Coming Soon)',
+      path: '#',
+      cName: 'dropdown-unlink'
     }
   ];
 
 
-  export const SocialItems = [
+  export const UserItems = [
     {
-      title: 'Facebook',
-      path: 'https://www.facebook.com/',
+      title: 'Account',
+      path: '/UserAccount',
       cName: 'dropdown-link'
     },
     {
-      title: 'Instagram',
-      path: 'https://www.instagram.com/',
+      title: 'Deposit',
+      path: <DepositModal/>,
       cName: 'dropdown-link'
     },
     {
-      title: 'Twitter',
-      path: 'https://twitter.com/',
+      title: 'Withdraw',
+      path: <WithdrawModal />,
       cName: 'dropdown-link'
     },
     {
-      title: 'Youtube',
-      path: 'https://www.youtube.com/',
+      title: 'Logout',
+      path: '/',
       cName: 'dropdown-link'
     },
-    {
-        title: 'LinkedIn',
-        path: 'https://www.linkedin.com/',
-        cName: 'dropdown-link'
-    }
   ];
   

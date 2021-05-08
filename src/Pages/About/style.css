@@ -3,7 +3,7 @@ body{
 }
 
 /* Styling of text used */
-.atxt1{
+/* .atxt1{
     text-align: center;
     font-weight: 700 !important;
     letter-spacing: 1px !important;
@@ -11,7 +11,7 @@ body{
     font-size: 2rem;
     color: #ffffff;
     text-shadow: #000 3px 3px 4px;
-}
+} */
 .atxt2{
     font-family: 'Raleway', sans-serif;
     padding: 0;
@@ -19,7 +19,7 @@ body{
     font-size: 15px;
     font-weight: 300;
 }
-.atxt3{
+/* .atxt3{
     text-align: center;
     font-weight: 700 !important;
     letter-spacing: 1px !important;
@@ -27,7 +27,7 @@ body{
     font-size: 2rem;
     color: #E5972F;
     text-shadow: #97682a 3px 2px 2px;
-}
+} */
 
 /* About section 1 */
 .asec1{
@@ -72,11 +72,21 @@ body{
     background-size: cover;
     padding: 5%;
 }
+.asec2-1{
+    text-align: center;
+}
 .asec2-2{
     padding: 3% 5% !important;
 }
+.asec2-3{
+    text-align: center;
+}
 
 /* Section 3 */
+.asec3-11{
+    text-align: center;
+    margin: 4% 0 2% 0;
+}
 .asec3-21{
     padding-bottom: 5%;
 }
@@ -89,6 +99,9 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     padding: 10% 5%;
+}
+.asec4-11{
+    text-align: center;
 }
 .asec4-2{
     padding: 3% 5%;

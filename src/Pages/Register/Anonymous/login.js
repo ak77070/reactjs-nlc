@@ -41,12 +41,12 @@ class Login extends Component {
                     />
                 </div>
                 <div>
-                  {/* <Link to="/nlc/games"> */}
+                  <Link to="/games">
                     <button onClick={ this.userNav } type="submit" className="button rbtn text-uppercase mt-5">
                       Continue 
                     </button>
-                  {/* </Link> */}
-                  <Link to="/nlc/CreatePassword" className="forgot">
+                  </Link>
+                  <Link to="/CreatePassword" className="forgot">
                     <p className="mt-2">Forgot Your Password?</p>
                   </Link>
                 </div>

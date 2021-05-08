@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { GamesItems } from './menuitems';
+import { GamesItems, UserItems } from './menuitems';
 import './style.css';
 import { NavLink } from 'react-router-dom';
 
@@ -22,7 +22,8 @@ function GamesDropdown() {
                         to={item.path}
                         onClick={() => setClick(false)}
                     >
-                        {item.title}
+                        {item.title}<br></br>
+                        {item.subtitle}
                     </NavLink>
                     </li>
                 );
@@ -32,34 +33,34 @@ function GamesDropdown() {
     );
 }
 
-// function SocialsDropdown() {
-//     const [click, setClick] = useState(false);
+function UserDropdown() {
+    const [click, setClick] = useState(false);
 
-//     const handleClick = () => setClick(!click);
+    const handleClick = () => setClick(!click);
 
-//     return (
-//         <>
-//             <ul
-//                 onClick={handleClick}
-//                 className={click ? 'dropdown-menu clicked' : 'dropdown-menu'}
-//             >
-//                 {SocialItems.map((item, index) => {
-//                 return (
-//                     <li key={index}>
-//                     <NavLink
-//                         className={item.cName}
-//                         to={item.path}
-//                         onClick={() => setClick(false)}
-//                     >
-//                         {item.title}
-//                     </NavLink>
-//                     </li>
-//                 );
-//                 })}
-//             </ul>
-//         </>
-//     );
-// }
+    return (
+        <>
+            <ul
+                onClick={handleClick}
+                className={click ? 'dropdown-user clicked' : 'dropdown-menu dropdown-user'}
+            >
+                {UserItems.map((item, index) => {
+                return (
+                    <li key={index}>
+                    <NavLink
+                        className={item.cName}
+                        to={item.path}
+                        onClick={() => setClick(false)}
+                    >
+                        {item.title}
+                    </NavLink>
+                    </li>
+                );
+                })}
+            </ul>
+        </>
+    );
+}
   
-// export {SocialsDropdown}
+export {UserDropdown}
 export default GamesDropdown;
